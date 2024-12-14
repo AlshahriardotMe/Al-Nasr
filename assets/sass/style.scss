@@ -42,6 +42,7 @@ a{
 	background: $primary-button-hover;
 	border-radius: 9px;
 	transform: scale(0.6s);
+	box-shadow: 10px 10px 5px lightblue;
 }
 // Contact-btn
 .Contact-btn {
@@ -61,6 +62,7 @@ a{
 .Contact-btn:hover{
     border: 2px solid $primary-button;
     color: $primary-text-hover;
+	box-shadow: 10px 10px 5px lightblue;
 }
 // Header
 .header-title{
@@ -91,9 +93,6 @@ a{
 	font-family: "Nunito";
 	font-size: 27px;
 }
-.header-description:hover{
-    color: $primary-text-hover;
-}
 .header-btn {
 	background: #ffc265;
 	color: #525252;
@@ -111,7 +110,8 @@ a{
 }
 .header-btn:hover{
     border: 2px solid $primary-button;
-    color: $primary-text-hover; 
+    color: $primary-text-hover;
+	box-shadow: 10px 10px 5px lightblue; 
 }
 
 .video-container {
@@ -223,10 +223,7 @@ a{
     color: $primary-text-hover;
 }
 .img-side {
-	background-image: url(/assets/images/hero-bg.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: absolute;
 	border-radius: 3px;
 	width: 409px;
 	height: 547px;
@@ -371,9 +368,7 @@ a{
 	margin-left: 190px;
 	margin-top: 1rem;
 }
-.text-description:hover{
-	color: $bg;
-}
+
 .flight{
   gap: 30px;
   margin-top: 1rem;
@@ -404,10 +399,8 @@ a{
 	font-size: 18px;
 	color: $primary-text;
 }
-.text-side:hover{
-	color: $primary-text-hover;
-}
-.hero-button.d-flex {
+
+.hero-button {
 	gap: 33px;
 }
 .hero-btn {
@@ -429,6 +422,7 @@ a{
 .hero-btn:hover{
     background: #ffc265;
     color: #525252; 
+	box-shadow: 10px 10px 5px lightblue;
 }
 .hero-btns {
 	background: #ffc265;
@@ -449,6 +443,7 @@ a{
 .hero-btns:hover{
 	border: 2px solid #ffc265;
     color:$bg; 
+	box-shadow: 10px 10px 5px lightblue;
 }
 
 /* Al Nasr Special Umrah and Hajj Packages */
@@ -479,9 +474,7 @@ a{
 	color: #454545;
 	margin-left: 18rem;
 }
-.package-description:hover{
-	color:$primary-text-hover
-}
+
 .card-info {
 	display: flex;
 	align-items: center;
@@ -502,9 +495,7 @@ a{
 	color: $primary-button;
 	font-family: 'Nunito';
 }
-.package-info-left:hover{
-	color: $primary-text-hover;
-}
+
 .package-info-right {
 	width: 123px;
 	padding: 7px;
@@ -541,6 +532,7 @@ a{
 .card-btn:hover{
 	background: #ffc265;
     color: #525252;
+	box-shadow: 10px 10px 5px lightblue;
 }
 .card-title {
 	color: #525252;
@@ -556,16 +548,12 @@ a{
 	width: 9rem;
 	font-weight: bold;
 }
-.package-price:hover{
-	color: $primary-text-hover;
-}
+
 samp{
 	color:$bg;
 	font-weight: bold;
 }
-samp:hover{
-	color:$primary-button;
-}
+
 .icon {
 	width: 36px;
 	height: 36px;
@@ -608,6 +596,10 @@ samp:hover{
 .airways-title:hover{
 	color: $primary-text-hover;
 }
+.airways-slider {
+	width: 75% !important;
+	margin-top: 30px;
+}
 .airways-description{
 	width: 295px;
 	height: 72px;
@@ -618,8 +610,8 @@ samp:hover{
 	line-height: 150%;
 	color: #454545;
 }
-.airways-description:hover{
-	color: $primary-text-hover;
+.airways-img{
+	width: 75% !important;
 }
 .rating-star{
 	color: $primary-button;
@@ -633,14 +625,6 @@ samp:hover{
 	border-radius: 20px;
 	text-align: center;
 	color: $bg;
-}
-.airways-carousel {
-	padding: 97px;
-	object-fit: cover;
-	width: 344px;
-}
-.airways-footer {
-	height: 119px;
 }
 /* Facilities  1 */
 .facilities {
@@ -675,9 +659,7 @@ samp:hover{
 	margin-left: 22rem;
 	margin-top: 18px;
 }
-.facilities-description:hover{
-	color: $primary-text-hover;
-}
+
 .facilities-card{
 	padding: 20px;
 	gap: 10px;
@@ -730,9 +712,7 @@ samp:hover{
 	color: #4a4a4a;
 	margin-left: 26rem;
 }
-.review-title:hover{
-	color: $primary-text-hover;
-}
+
 .review-description{
 	width: 660px;
 	height: 72px;
@@ -745,9 +725,7 @@ samp:hover{
 	color: $primary-text;
 	margin-left: 38rem;
 }
-.review-description:hover{
-	color: $primary-text-hover;
-}
+
 .review-carousel {
 	width: 90px;
 	height: 92px;
@@ -818,6 +796,7 @@ samp:hover{
 .review-btn:hover{
 	border: 2px solid $primary-button;
 	color: $primary-text-hover;
+	box-shadow: 10px 10px 5px lightblue;
 }
 .member-name{
 	width: 177px;
@@ -842,9 +821,7 @@ samp:hover{
 	line-height: 117%;
 	color: #454545;
 }
-.review-text:hover{
-	color:$primary-text-hover;
-}
+
 .next-button {
 	display: flex;
 	justify-content: center;
@@ -863,6 +840,7 @@ samp:hover{
 .next-button:hover{
 	border: 2px solid $primary-button;
 	color: $primary-text-hover;
+	box-shadow: 10px 10px 5px lightblue;
 }
 .gallery {
 	background-color: #F3FFFE;
@@ -897,9 +875,7 @@ samp:hover{
 	margin-left: 21rem;
 	margin-top: 28px;
 }
-.gallery-description:hover{
-	color: $primary-text-hover;
-}
+
 .gallery-imgs{
 	position: relative;
 }
@@ -1033,9 +1009,10 @@ hr {
 	align-items: center;
 	padding: 14px;
 }
-.icon-link:hover{
-	background: $primary-button;
-	color: #C1FFFA;
+.icon-link:hover {
+	background: #ffc265;
+	color: #c1fffa;
+	box-shadow: 7px 2px 5px #e6d9ad;
 }	
 
 

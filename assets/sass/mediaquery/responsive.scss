@@ -67,7 +67,8 @@
         margin-top: 149px;
     }
     .hero-img {
-        width: 17rem;
+        width: 18rem;
+        top: 128px;
     }
     .hero-card-one {
         left: 22px;
@@ -99,6 +100,8 @@
         width: 17rem;
         margin-right: 166px;
         font-size: 40px;
+        margin-top: 11rem;
+        text-align: center;
     }
     .text-description {
         width: 18rem;
@@ -167,13 +170,14 @@
     .airways{
         flex-direction: column;
     }
-    .airways-footer {
-        margin-top: 26px;
-        height: 80px;
+    .airways-slider{
+        width: 100px;
     }
-    .airways-carousel {
-        width: 81px;
-        padding: 18px;
+    .airways-img{
+        width: 100% !important;
+    }
+    .airways-slider{
+        width: 100% !important;
     }
     .facilities{
         padding: 0px;
