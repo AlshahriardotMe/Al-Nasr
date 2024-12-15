@@ -1,0 +1,127 @@
+@import 'color';
+
+// Footer all Css
+
+.footer {
+	background: #1da599;
+	padding: 40px;
+}
+.footer-img {
+	width: 294px;
+	height: 79px;
+}
+.img-text {
+	margin-top: 14px;
+	width: 294px;
+	height: 44px;
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+.img-text:hover{
+	color: $primary-button;
+}
+.Quick-Link h4{
+	color: #F3FFFE;
+}
+.Quick-Link p {
+	color: #f3fffe;
+	margin-top: 31px;
+	line-height: 4px;
+}
+.Quick-Link{
+	color: #F3FFFE;
+}
+.Quick-Link p:hover{
+	color: $primary-button;
+}
+.Quick-Link h4:hover{
+	color: $primary-button;
+}
+
+
+.Package-Umrah h4{
+	color: #F3FFFE;
+}
+.Package-Umrah p {
+	color: #f3fffe;
+	margin-top: 31px;
+	line-height: 4px;
+}
+.Package-Umrah p:hover{
+	color: $primary-button;
+}
+.Package-Umrah h4:hover{
+	color: $primary-button;
+}
+
+.Package-Hajj h4{
+	color: #F3FFFE;
+}
+.Package-Hajj p{
+	color: #f3fffe;
+	margin-top: 31px;
+	line-height: 4px;
+}
+.Package-Hajj p:hover{
+	color: $primary-button;
+}
+.Package-Hajj h4:hover{
+	color: $primary-button;
+}
+
+.Office-Place h4{
+	color: #F3FFFE;
+}
+.Office-Place p{
+	color: #f3fffe;
+	margin-top: 31px;
+	line-height: 4px;
+}
+.Office-Place p:hover{
+	color: $primary-button;
+}
+.Office-Place h4:hover{
+	color: $primary-button;
+}
+hr {
+	color: #f3fffe;
+	height: 12px;
+}
+.copy-rights-text{
+	color: #f3fffe;
+
+}
+
+.copy-rights-text:hover{
+	color: $primary-button;
+}
+.icons{
+    display: flex;
+	margin-right: 12px;
+	gap: 25px;
+}
+.icon-link {
+	display: block;
+	background: #fff;
+	border-radius: 6px;
+	color: #1da599;
+	padding: 8px 9px;
+}
+
+.icon-link:hover {
+	background: #ffc265;
+	color: #c1fffa;
+	box-shadow: 7px 2px 5px #e6d9ad;
+}	
+
+
+
+
+
+
+
+

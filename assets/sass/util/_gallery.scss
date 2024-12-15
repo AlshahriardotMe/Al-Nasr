@@ -1,0 +1,61 @@
+@import 'color';
+
+.gallery {
+	background-color: #F3FFFE;
+	padding: 65px;
+	margin-top: 83px;
+}
+.gallery-title {
+	width: 911px;
+	height: 76px;
+	font-family: "Kufam";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 140%;
+	text-align: center;
+	color: #4a4a4a;
+	margin-left: 12rem;
+}
+.gallery-title:hover{
+	color: $primary-text-hover;
+}
+.gallery-description {
+	width: 660px;
+	height: 72px;
+	font-family: "Nunito";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	color: #454545;
+	margin-left: 21rem;
+	margin-top: 28px;
+}
+
+.gallery-imgs{
+	position: relative;
+}
+.gallery-img-btn {
+	position: absolute;
+	z-index: 1;
+	box-sizing: border-box;
+	width: 211px;
+	height: 56px;
+	left: 68rem;
+	top: 362rem;
+	background: linear-gradient(180deg, rgba(29, 165, 153, 0.7) 0%, rgba(29, 165, 153, 0.7) 100%);
+	border: 1px solid #1da599;
+	filter: blur(1px);
+	border-radius: 10px;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 11px;
+}
+
+
+
+// lightbox

@@ -1,0 +1,142 @@
+@import 'color';
+
+
+// Header
+.header-title{
+    color: $primary-text-hover;
+    background: $primary-title-bg;
+    padding: 1px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.header-title:hover{
+    color: $primary-text;
+}
+.header-headline {
+	width: 36rem;
+	font-family: "Kufam";
+	font-weight: bold;
+	font-size: 54px;
+}
+.header-headline:hover{
+    color: $primary-text-hover;
+}
+.header-description {
+	width: 44rem;
+	font-family: "Nunito";
+	font-size: 27px;
+}
+
+
+.video-container {
+	position: relative;
+	display: inline-block;
+	width: 293px;
+	cursor: pointer;
+	left: 173px;
+}
+.video-container img {
+	width: 100%;
+	height: 26rem;
+	display: block;
+}
+.video-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	padding: 15px;
+}
+.video-icon img {
+    width: 100px;
+    height: 100px;
+}
+.bg-video {
+	position: absolute;
+	background: #1da599;
+	width: 456px;
+	height: 207px;
+	top: 15rem;
+	border-radius: 12px;
+	right: 99px;
+}
+.upper-card {
+	position: absolute;
+	border: 2px solid #ffc265;
+	border-radius: 8px;
+	width: 13rem;
+	z-index: 1;
+	background: #fff;
+	gap: 13px;
+	right: 123px;
+	top: 138px;
+}
+.upper-card:hover{
+	background-color: $primary-button;
+}
+.upper-card-img {
+	width: 60px;
+	height: 60px;
+}
+.upper-card-header {
+	font-size: 12px;
+	font-family: "semibold";
+	width: 110px;
+    position: relative;
+}
+.upper-card-header:hover{
+    color: $primary-text-hover;
+}
+.upper-card-title {
+	font-family: "Kufam";
+	font-size: 12px;
+	position: absolute;
+	margin-top: 43px;
+    color: $primary-text;
+}
+.upper-card-title:hover{
+    color: $primary-text-hover;
+}
+
+.down-card {
+	position: absolute;
+	border: 2px solid #1da599;
+	border-radius: 8px;
+	width: 13rem;
+	z-index: 1;
+	background: #fff;
+	gap: 13px;
+	margin-top: 398px;
+	right: 20rem;
+}
+.down-card:hover{
+	background: $primary-button;
+}
+.down-card-img{
+	width: 60px;
+	height: 60px;
+}
+.down-card-header {
+	font-size: 12px;
+	font-family: "semibold";
+	width: 115px;
+	position: relative;
+}
+.down-card-header:hover{
+    color: $primary-text-hover;
+}
+.down-card-title {
+	font-family: "Kufam";
+	font-size: 12px;
+	position: absolute;
+	margin-top: 43px;
+    color: $primary-text;
+}
+.down-card-title:hover{
+    color: $primary-text-hover;
+}

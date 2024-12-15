@@ -1,0 +1,81 @@
+
+@import 'color';
+
+
+
+/* Facilities   */
+.facilities {
+	background: #f3fffe;
+	padding: 67px;
+}
+.facilities-title {
+	width: 821px;
+	height: 76px;
+	font-family: "Kufam";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 140%;
+	text-align: center;
+	color: #4a4a4a;
+	margin-left: 17rem;
+}
+.facilities-title:hover{
+	color: $primary-text-hover;
+}
+.facilities-description {
+	width: 660px;
+	height: 72px;
+	font-family: "Nunito";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	color: #454545;
+	margin-left: 22rem;
+	margin-top: 18px;
+}
+
+.facilities-card{
+	padding: 20px;
+	gap: 10px;
+	width: 282px;
+	height: 112px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+	border-radius: 10px;
+}
+.facilities-card-img {
+	width: 64px;
+	height: 49px;
+}
+.facilities-card-title a{
+	width: 171px;
+	height: 30px;
+	font-family: 'Kufam';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: $primary-text;
+}
+.facilities-card-title a:hover{
+	color: $primary-text-hover;
+}
+.facilities-card-text {
+	width: 186px;
+	height: 42px;
+	font-family: "Nunito";
+	font-style: normal;
+	font-weight: 420;
+	font-size: 14px;
+	line-height: 122%;
+	color: #454545;
+}
+.facilities-card-text:hover{
+	color: $primary-text-hover;
+}
+
+
+

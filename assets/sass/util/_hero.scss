@@ -1,0 +1,194 @@
+@import 'color';
+
+
+// Hore Section
+
+.hero-section {
+	background: #F3FFFE;
+	margin-top: 96px;
+	padding: 88px;
+}
+.hero-last-card {
+	position: absolute;
+	z-index: 1;
+	width: 18rem;
+	margin-top: 32rem;
+	background: #fff;
+	border-radius: 7px;
+	left: 182px;
+}
+.header-video {
+	margin-top: 50px;
+}
+.last-card-img {
+	width: 158px;
+	height: 51px;
+	margin-left: 21px;
+	margin-top: 10px;
+}
+.last-card-title {
+	width: 120px;
+	font-size: 21px;
+	font-family: "Kufam";
+	color: #1da599;
+	text-align: center;
+	margin-top: 18px;
+	margin-left:8px;
+}
+.hero-text-side{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text-side-title {
+	font-family: "Kufam";
+	font-weight: bold;
+	width: 35rem;
+	margin-left: 155px;
+	font-size: 46px;
+	color: $primary-text;
+}
+.text-side-title:hover{
+	color: $bg;
+}
+.text-description {
+	width: 37rem;
+	font-family: "Nunito";
+	font-size: 21px;
+	margin-left: 190px;
+	margin-top: 1rem;
+}
+
+.flight{
+  gap: 30px;
+  margin-top: 1rem;
+}
+.Tickets{
+  gap: 30px;
+  margin-top: 0.5rem;
+}
+.Hostel{
+  gap: 30px;
+  margin-top: 0.5rem;
+}
+.Visas{
+  gap: 30px;
+  margin-top: 0.5rem;
+}
+.icon-text-side {
+	width: 40px;
+	height: 37px;
+}
+.text-icon {
+	margin-right: 18px;
+	margin-top: 1.5rem;
+}
+.text-side {
+	margin-top: 4px;
+	font-family: "Nunito";
+	font-size: 18px;
+	color: $primary-text;
+}
+
+.hero-button {
+	gap: 33px;
+}
+
+// card two 
+
+
+.ratting-number {
+	color: $primary-text;
+}
+.ratting-number:hover {
+	color: $primary-text-hover;
+}
+.hero-card-two {
+	position: absolute;
+	z-index: 1;
+	gap: 35px;
+	background: #fff;
+	border: 2px solid #ffc265;
+	border-radius: 6px;
+	width: 13rem;
+	padding: 7px;
+	color: #ffc265;
+	left: 23rem;
+	top: 73rem;
+	height: 76px;
+}
+.hero-card-two:hover{
+	background: $primary-button;
+	color: $bg;
+}
+.ratting.d-flex {
+	gap: 12px;
+}
+.hero-text{
+	font-family: $text-font-family;
+	font-size: 12px;
+	margin-top: 10px;
+	color: $primary-text;
+}
+.hero-text:hover{
+	color: $primary-text-hover;
+}
+.hero-card-img {
+	width: 60px;
+	height: 60px;
+}
+.ratting-number {
+	color: $primary-text;
+}
+.ratting-number:hover {
+	color: $primary-text-hover;
+}
+
+
+// card one
+
+.img-side {
+	position: absolute;
+	border-radius: 3px;
+	width: 409px;
+	height: 547px;
+}
+.hero-img {
+	position: relative;
+	padding: 5px;
+}
+.hero-card-one {
+	position: absolute;
+	z-index: 1;
+	gap: 35px;
+	background: #fff;
+	border: 2px solid #ffc265;
+	border-radius: 6px;
+	width: 13rem;
+	padding: 7px;
+	color: #ffc265;
+	left: 26rem;
+	top: 52rem;
+	height: 76px;
+}
+.hero-card-one:hover{
+	background: $primary-button;
+	color: #1da599;
+}
+.ratting.d-flex {
+	gap: 12px;
+}
+.hero-text{
+	font-family: $text-font-family;
+	font-size: 12px;
+	margin-top: 10px;
+	color: $primary-text;
+}
+.hero-text:hover{
+	color: $primary-text-hover;
+}
+.hero-card-img {
+	width: 60px;
+	height: 60px;
+}
+
