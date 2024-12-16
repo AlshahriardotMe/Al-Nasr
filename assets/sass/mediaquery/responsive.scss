@@ -1,23 +1,10 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px){
-    .navbar-nav{
-        margin-left: 0;
-        gap: 3px;
-        text-align: center;
+    .container{
+        width: 96%;
     }
-    .navbar-toggler{
-        background: #FFC265;
-        color: rgba(82, 82, 82, 1)
-    }
-    .navbar-toggler:hover{
-        border: 2px solid #FFC265;
-        background: white;
-    }
-    .Contact-btn {
-        margin-left: 55px;
-        margin-top: 10px;
-    }
+   
     .header-headline {
         width: 277px;
         font-size: 35px;
@@ -97,20 +84,23 @@
         margin-top: 120px;
     }
     .text-side-title {
-        width: 17rem;
-        margin-right: 166px;
-        font-size: 40px;
+        width: 15rem;
+        margin-right: -87px;
+        font-size: 36px;
         margin-top: 11rem;
         text-align: center;
+    
     }
     .text-description {
-        width: 18rem;
-        margin-right: 188px;
-        font-size: 14px;
+        display: inline-block;
+        width: 246px;
+        margin-left: 38px;
+        font-size: 9px;
     }
     .text-icon {
         margin-top: 3px;
-        margin-right: 53px;
+        margin-right: 27px;
+        width: 248px;
     }
     .flight {
         gap: 12px;
@@ -170,6 +160,9 @@
     .airways{
         flex-direction: column;
     }
+    .airways-description {
+        width: 267px;
+    }
     .airways-slider{
         width: 100px;
     }
@@ -179,20 +172,21 @@
     .airways-slider{
         width: 100% !important;
     }
-    .facilities{
+    .facilities {
         padding: 0px;
+        height: 92rem;
     }
-    .facilities-title{
+    .facilities-title {
         width: 18rem;
-        margin-left: 1px;
-        font-size: 3rem;
+        margin-left: -12px;
+        font-size: 2rem;
         margin-top: 44px;
     }
     .facilities-description {
-        width: 18rem;
-        margin-left: 1px;
-        font-size: 1rem;
-        margin-top: 127px;
+        width: 17rem;
+        margin-left: -10px;
+        font-size: 12px;
+        margin-top: 31px;
     }
     .review-card{
         margin-right: 0px;
@@ -208,12 +202,13 @@
     .review-title {
         margin-left: 0;
         width: 258px;
-        font-size: 37px;
+        font-size: 25px;
     }
     .review-description {
         margin-left: 0;
         width: 258px;
         font-size: 16px;
+        margin-top: 12px;
     }
     .review-btn {
         width: 138px;
@@ -228,25 +223,26 @@
         font-size: 20px;
     }
     .next-button {
-        width: 118px;
-        height: 46px;
-        font-size: 16px;
-        margin-left: 10rem;
+        width: 118px !important;
+        height: 46px !important;
+        font-size: 16px !important;
+        margin-left: 10rem !important;
     }
-    .gallery{
+    .gallery {
         padding: 0px;
+        height: 108rem;
     }
     .gallery-title {
         width: 297px;
         font-size: 29px;
-        margin-left: 0rem;
+        margin-left: -1rem;
         margin-top: 43px;
     }
     .gallery-description {
-        width: 297px;
+        width: 294px;
         font-size: 15px;
-        margin-left: 0rem;
-        margin-top: 42px;
+        margin-left: -1rem;
+        margin-top: 37px;
     }
     .gallery-img-big{
         width: 100%;
@@ -257,14 +253,17 @@
     }
     .gallery-img-three{
         flex-direction: column;
-        width: 100%;
+        width: 100% ;
     }
-    .gallery-img-btn{
-        top: 10rem;
+    .gallery-img{
+        width: 100% !important;
+    }
+    .gallery-imgs{
+        width: 100% !important;
     }
     .gallery-img-btn {
-        top: 719rem;
-        left: 3rem;
+        top: 634rem;
+        left: 5rem;
     }
     .footer{
         padding: 0;
@@ -272,6 +271,10 @@
     }
     .footer-img {
         margin-top: 50px;
+        margin-left: -17px;
+    }
+    .img-text {
+        width: 262px;
     }
     .Quick-Link {
         margin-top: 25px;

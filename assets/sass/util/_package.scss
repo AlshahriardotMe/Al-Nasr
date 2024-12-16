@@ -118,3 +118,119 @@ samp{
 	justify-content: center;
 	margin-left: 61px;
 }
+
+
+// Package Section responsive 
+
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    .container{
+        width:100%;
+    }
+    .package-title {
+        width: 100%;
+        margin-left: 0;
+    }
+    .package-description{
+        width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .card {
+        width: 18rem !important;
+    }
+    .card-empty {
+        width: 18rem !important;
+		height: 30rem;
+    }
+    .empty-card-text {
+		margin-left: 5px;
+		display: flex;
+		align-items: center;
+		margin-top: 13rem;
+	}
+    .card-info {
+        gap: 96px;
+        width: 254px;
+    }
+	.cards-info {
+        gap: 69px;
+        width: 254px;
+    }
+
+}
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width:99%;
+    }
+    .package-title {
+		width: 100%;
+		margin-left: 0;
+		font-size: 3rem;
+	}
+    .package-description{
+        width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .card {
+        width: 18rem !important;
+    }
+    .card-empty {
+        width: 18rem !important;
+		height: 30rem;
+    }
+    .empty-card-text {
+		margin-left: 5px;
+		display: flex;
+		align-items: center;
+		margin-top: 13rem;
+	}
+    .card-info {
+        gap: 96px;
+        width: 254px;
+    }
+	.cards-info {
+        gap: 69px;
+        width: 254px;
+    }
+
+}
+  @media only screen and (max-width: 767px) {
+   
+	.container{
+		width: 99%;
+	}
+	.package-title {
+        width: 100%;
+        margin-left: 0;
+        font-size: 2rem;
+    }
+    .package-description{
+        width: 100%;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .card {
+        width: 18rem !important;
+        
+    }
+    .card-empty {
+        width: 18rem !important;
+		height: 30rem;
+    }
+    .empty-card-text {
+		margin-left: 5px;
+		display: flex;
+		align-items: center;
+		margin-top: 13rem;
+	}
+    .card-info {
+        gap: 96px;
+        width: 254px;
+    }
+    .cards-info {
+        gap: 69px;
+        width: 254px;
+    }
+}

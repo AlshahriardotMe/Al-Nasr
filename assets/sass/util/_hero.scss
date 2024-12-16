@@ -80,7 +80,6 @@
 	height: 37px;
 }
 .text-icon {
-	margin-right: 18px;
 	margin-top: 1.5rem;
 }
 .text-side {
@@ -100,9 +99,7 @@
 .ratting-number {
 	color: $primary-text;
 }
-.ratting-number:hover {
-	color: $primary-text-hover;
-}
+
 .hero-card-two {
 	position: absolute;
 	z-index: 1;
@@ -130,9 +127,7 @@
 	margin-top: 10px;
 	color: $primary-text;
 }
-.hero-text:hover{
-	color: $primary-text-hover;
-}
+
 .hero-card-img {
 	width: 60px;
 	height: 60px;
@@ -140,9 +135,7 @@
 .ratting-number {
 	color: $primary-text;
 }
-.ratting-number:hover {
-	color: $primary-text-hover;
-}
+
 
 
 // card one
@@ -184,11 +177,272 @@
 	margin-top: 10px;
 	color: $primary-text;
 }
-.hero-text:hover{
-	color: $primary-text-hover;
-}
+
 .hero-card-img {
 	width: 60px;
 	height: 60px;
 }
 
+
+
+// Hero Section responsive 
+
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    .container{
+        width:100%;
+    }
+    .hero-section {
+        padding: 0px;
+        height:40rem;
+    }
+    .img-side {
+        width: 273px;
+        margin-left: 11px;
+        height: 358px;
+        margin-top: 149px;
+    }
+    .hero-img {
+        width: 18rem;
+        top: 128px;
+    }
+    .hero-card-one {
+		left: 42px;
+		top: 38rem;
+		width: 121px;
+		gap: 7px;
+	}
+    .hero-card-two {
+        left: 188px;
+        top: 38rem;
+        width: 121px;
+        gap: 7px;
+    }
+    .hero-card-img {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-text {
+        width: 79px;
+        font-size: 9px;
+    }
+    .hero-last-card {
+        left: 31px;
+    }
+    .text-side-title {
+		width: 21rem;
+		margin-right: 166px;
+		font-size: 21px;
+		margin-top: 3rem;
+		text-align: center;
+	}
+    .text-description {
+		width: 38rem;
+		margin-right: 188px;
+		font-size: 15px;
+		text-align: center;
+	}
+    .text-icon {
+        margin-top: 3px;
+        margin-right: 53px;
+    }
+    .flight {
+        gap: 12px;
+    }
+    .Tickets {
+        gap: 12px;
+    }
+    .Hostel {
+        gap: 12px;
+    }
+    .Visas {
+        gap: 12px;
+    }
+	.text-side {
+		font-size: 18px;
+		margin-top: 8px;
+	}
+    // .hero-btns {
+    //     width: 125px;
+    //     font-size: 16px;
+    //     height: 50px;
+    // }
+    // .hero-btn {
+    //     width: 125px;
+    //     font-size: 16px;
+    //     height: 50px;
+    // }
+}
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width:99%;
+    }
+    .hero-section {
+        padding: 0px;
+        height: 40rem;
+    }
+    .img-side {
+        width: 273px;
+        margin-left: 11px;
+        height: 358px;
+        margin-top: 149px;
+    }
+    .hero-img {
+        width: 18rem;
+        top: 128px;
+    }
+    .hero-card-one {
+		left: 40px;
+		top: 40rem;
+		width: 123px;
+		gap: 7px;
+	}
+    .hero-card-two {
+		left: 187px;
+		top: 40rem;
+		width: 121px;
+		gap: 7px;
+	}
+    .hero-card-img {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-text {
+        width: 79px;
+        font-size: 9px;
+    }
+    .hero-last-card {
+        left: 33px;
+    }
+    .text-side-title {
+        width: 14rem;
+        font-size: 21px;
+        margin-top: 4rem;
+        text-align: center;
+        margin-left: -80px;
+    }
+    .text-description {
+		width: 25rem;
+		margin-right: 234px;
+		font-size: 14px;
+	}
+    .text-icon {
+		margin-top: -14px;
+		margin-right: 71px;
+		width: 24rem;
+	}
+    .flight {
+        gap: 12px;
+    }
+    .Tickets {
+        gap: 12px;
+    }
+    .Hostel {
+        gap: 12px;
+    }
+    .Visas {
+        gap: 12px;
+    }
+    .text-side{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .hero-btns {
+        width: 125px !important;
+        font-size: 16px !important;
+        height: 50px !important;
+    }
+    .hero-btn {
+        width: 125px !important;
+        font-size: 16px !important;
+        height: 50px !important;
+    }
+}
+  @media only screen and (max-width: 767px) {
+   
+	.container{
+		width: 99%;
+	}
+	.hero-section {
+        padding: 0px;
+        height: 40rem;
+    }
+    .img-side {
+        width: 273px;
+        margin-left: 11px;
+        height: 358px;
+        margin-top: 149px;
+    }
+    .hero-img {
+        width: 18rem;
+        top: 128px;
+    }
+    .hero-card-one {
+		left: 40px;
+		top: 40rem;
+		width: 123px;
+		gap: 7px;
+	}
+    .hero-card-two {
+		left: 187px;
+		top: 40rem;
+		width: 121px;
+		gap: 7px;
+	}
+    .hero-card-img {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-text {
+        width: 79px;
+        font-size: 9px;
+    }
+    .hero-last-card {
+        left: 33px;
+    }
+
+    .text-side-title {
+        width: 28rem;
+        font-size: 43px;
+        margin-top: 4rem;
+        text-align: center;
+        margin-left: -80px;
+    }
+    .text-description {
+        width: 25rem;
+        font-size: 13px;
+        margin-top: 1rem;
+        margin-left: -37px;
+    }
+    .text-icon {
+		margin-top: -14px;
+		margin-right: 71px;
+		width: 24rem;
+	}
+    .flight {
+        gap: 12px;
+    }
+    .Tickets {
+        gap: 12px;
+    }
+    .Hostel {
+        gap: 12px;
+    }
+    .Visas {
+        gap: 12px;
+    }
+    .text-side{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .hero-btns {
+        width: 125px !important;
+        font-size: 16px !important;
+        height: 50px !important;
+    }
+    .hero-btn {
+        width: 125px !important;
+        font-size: 16px !important;
+        height: 50px !important;
+    }
+}

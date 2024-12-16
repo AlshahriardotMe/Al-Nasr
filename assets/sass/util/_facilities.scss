@@ -73,8 +73,146 @@
 	line-height: 122%;
 	color: #454545;
 }
-.facilities-card-text:hover{
-	color: $primary-text-hover;
+
+
+
+// Hero Section responsive 
+
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    .container{
+        width:100%;
+    }
+	.facilities{
+        padding: 0px;
+		height: 37rem;
+    }
+    .facilities-title{
+        width: 100%;
+        margin-left: 1px;
+        font-size: 3rem;
+        margin-top: 44px;
+    }
+    .facilities-description {
+        width: 100%;
+        margin-left: 1px;
+        font-size: 1rem;
+    }
+	.facilities-card {
+		gap: 5px;
+		width: 227px;
+		height: 99px;
+	}
+	.facilities-card-img {
+		width: 30px;
+		height: 30px;
+	}
+	.facilities-card-title a {
+		width: 73px !important;
+		height: 30px !important;
+		font-weight: 510;
+		font-size: 14px;
+		line-height: 28%;
+	}
+
+	.facilities-card-text {
+		width: 158px !important;
+		height: 42px !important;
+		font-weight: 420;
+		font-size: 10px;
+		line-height: 122%;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width:99%;
+    }
+	.facilities{
+        padding: 0px;
+		height: 56rem;
+    }
+    .facilities-title{
+        width: 100%;
+        margin-left: 1px;
+        font-size: 3rem;
+        margin-top: 44px;
+    }
+    .facilities-description {
+        width: 100%;
+        margin-left: 1px;
+        font-size: 1rem;
+    }
+	.facilities-card {
+		gap: 5px;
+		width: 227px;
+		height: 99px;
+	}
+	.facilities-card-img {
+		width: 30px;
+		height: 30px;
+	}
+	.facilities-card-title a {
+		width: 73px !important;
+		height: 30px !important;
+		font-weight: 510;
+		font-size: 14px;
+		line-height: 28%;
+	}
+
+	.facilities-card-text {
+		width: 158px !important;
+		height: 42px !important;
+		font-weight: 420;
+		font-size: 10px;
+		line-height: 122%;
+	}
+
+}
+  @media only screen and (max-width: 767px) {
+   
+	.container{
+		width: 99%;
+	}
+	.facilities{
+        padding: 0px;
+		height: 56rem;
+    }
+    .facilities-title{
+        width: 100%;
+        margin-left: 1px;
+        font-size: 3rem;
+        margin-top: 44px;
+    }
+    .facilities-description {
+        width: 100%;
+        margin-left: 1px;
+        font-size: 1rem;
+    }
+	.facilities-card {
+		gap: 5px;
+		width: 227px;
+		height: 99px;
+	}
+	.facilities-card-img {
+		width: 30px;
+		height: 30px;
+	}
+	.facilities-card-title a {
+		width: 73px !important;
+		height: 30px !important;
+		font-weight: 510;
+		font-size: 14px;
+		line-height: 28%;
+	}
+
+	.facilities-card-text {
+		width: 158px !important;
+		height: 42px !important;
+		font-weight: 420;
+		font-size: 10px;
+		line-height: 122%;
+	}
 }
 
 

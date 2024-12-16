@@ -41,8 +41,6 @@
 .Quick-Link h4:hover{
 	color: $primary-button;
 }
-
-
 .Package-Umrah h4{
 	color: #F3FFFE;
 }
@@ -87,6 +85,11 @@
 .Office-Place h4:hover{
 	color: $primary-button;
 }
+.copy-right-icons{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
 hr {
 	color: #f3fffe;
 	height: 12px;
@@ -96,9 +99,6 @@ hr {
 
 }
 
-.copy-rights-text:hover{
-	color: $primary-button;
-}
 .icons{
     display: flex;
 	margin-right: 12px;
@@ -119,6 +119,119 @@ hr {
 }	
 
 
+// footer responsive 
+
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+    
+	.footer-img {
+        margin-top: 25px;
+    }
+	.img-text {
+		text-align: center;
+		font-size: 12px;
+		width: 98%;
+	}
+    .Quick-Link {
+		margin-top: 25px;
+		text-align: center;
+		font-size: 12px;
+	}
+    .Package-Umrah{
+        margin-top: 25px;
+		text-align: center;
+		font-size: 12px;
+    }
+    .Package-Hajj{
+        margin-top: 25px;
+		text-align: center;
+		font-size: 12px;
+    }
+    .Office-Place{
+        margin-top: 25px;
+		text-align: center;
+		font-size: 12px;
+    }
+    .copy-right-icons{
+        gap: 0px;
+    }
+    .copy-rights-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .icons{
+		display: flex;
+        justify-content: center;
+    }
+	 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.footer-img {
+        margin-top: 50px;
+    }
+	.img-text{
+		text-align: center;
+	}
+    .Quick-Link {
+        margin-top: 60px;
+		text-align: center;
+		
+    }
+    .Package-Umrah{
+        margin-top: 0px;
+		text-align: center;
+    }
+    .Package-Hajj {
+		margin-top: 25px;
+		text-align: center;
+	}
+    .Office-Place{
+        margin-top: 25px;
+		text-align: center;
+    }
+	.copy-right-icons{
+        flex-direction:column-reverse;
+        gap: 0px;
+    }
+    .copy-rights-text{
+        text-align: center;
+        margin-top: 50px;
+    }
+	.icons {
+		margin: 0 auto;
+	}
+    
+}
+@media only screen and (max-width: 767px) {
+    .container, .container-sm {
+		max-width: 100% !important;
+	}
+	.footer-img {
+        margin-top: 50px;
+    }
+    .Quick-Link {
+        margin-top: 25px;
+    }
+    .Package-Umrah{
+        margin-top: 25px;
+    }
+    .Package-Hajj{
+        margin-top: 25px;
+    }
+    .Office-Place{
+        margin-top: 25px;
+    }
+    .copy-right-icons{
+        flex-direction:column-reverse;
+        gap: 0px;
+    }
+    .copy-rights-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .icons{
+    justify-content: center;
+    margin-left: 0px}}
 
 
 

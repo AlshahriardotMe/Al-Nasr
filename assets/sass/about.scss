@@ -9,6 +9,7 @@ $text-font-family:'Kufam';
 
 @import 'mediaquery/responsive';
 @import 'base/reset';
+@import 'util/navber';
 * {
   margin: 0;
   padding: 0;
@@ -52,14 +53,7 @@ a{
       .page-banner-section .page-title h1 {
         font-size: 18px; } }
 
-        .page-title:hover{
-          color: $hover-color;
-        }
-        // .Welcome{color: $primary-text;
-        // font-family: $text-font-family;}      
-        // .Welcome:hover{
-        //   color: $hover-color;
-        // }      
+            
 
 
 
@@ -159,22 +153,17 @@ a{
 }
 
 .section-title{
-  position: relative;
   font-family: $text-font-family;
   font-family: "Kufam";
   color: #525252;
   margin-top: 78px;
 }
-.logos {
-	position: absolute;
-	left: 35rem;
-	bottom: 41px;
+
+.section-title h1{
+  font-size: 3rem;
+  font-weight:bold;
 }
-.logos-service {
-	position: absolute;
-	left: 34rem;
-	bottom: 41px;
-}
+
 /*-- Single Team --*/
 .single-team {
   padding: 0;
